@@ -8,8 +8,47 @@ Outline of Functions:
 Def load questions(questions_file):
 This function would take in the parameter of the file with our list of questions and would load them into a tuple
 
+Quesitons that will be in csv file: 
+1. Its syllabus week, how do you choose to spend your time
+A. You can find me at my RSOs table on quad day (class president)
+B. It's not a real week… let's  have fun! (social chair)
+C. It's the perfect time to get ahead on work before things get busy (grainger addict)
+D. Grabbing a pair of striped overalls from the bookstore.. Football season is coming up! (orange crush)
+
+3. What dorm did you live in freshman year 
+A. Bromley (the social chair)
+B. ISR (grainger addict)
+C. Six pack (orange crush) 
+D. LLC (class president) 
+
+4. How do you like to spend a thursday night 
+A. I never miss a thursday night Joes duh (social chair)
+B. Karaoke at the union (class president) 
+C. In bed of course…it’s a school night (grainer addict)
+D. Playing on my intramural team (orange crush)
+
+5. It's halloweekend at u of i which costume are you picking?
+A. The mascot (orange crush) 
+B. "C-" the scariest thing i can think of (class president) 
+C. Party animal (social chair) 
+D. Harry potter (grainger)
+
+6. How do you like to get your work done?
+A. Why wait around? Get it done right away (grainger)
+B. I’ll get around to it at some point… (orange crush)
+C. Probably turned in late, but at least it's done (social chair)
+D. I fit it in between my extracurricular events (class president)
+
+7. Dr. Uddenberg is hosting a Kahoot in class. What avatar are you choosing?
+A. The unicorn (social chair)
+B. The brain (grainger)
+C. The pumpkin (orange crush) 
+D. The dog (class president)
+
 Def print instructions(instructions_file):
 This function would read and print the instructions to the user 
+Instructions draft:
+"Hello! Welcome to the University of Illinois Archetype Quiz! This quiz will measure your personality based on a series of questions. Go through each question and click the answer that best applies to you. At the end of the quiz, you will receive a UIUC student archetype. Have fun!"
 
 Def administer_quiz(question_tuple):
 This function would take in the tuple of questions that we made earlier, then one by one ask the questions and allow the user to input their answer. It would the store the answers to a list. 
