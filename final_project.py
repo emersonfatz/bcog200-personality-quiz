@@ -4,7 +4,8 @@ def load_questions(project_questions): #haley
     question_list = []
     
 def print_instructions(project_questions): #emerson
-    #readfile
+    with open(project_questions, 'r', encoding='utf-8') as file:
+        instructions = file.read()
         print(instructions)
 
 def administer_survey(question_list): #both
