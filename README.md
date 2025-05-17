@@ -70,6 +70,16 @@ This page would be similar to print instructions in the way that it displays the
 
 - main()
 
+### 📥 Download All CSV Files (Recommended Method)
+
+All required csv files will be located in data/questions_file/
+
+To get all the `.csv` files needed to run the project, clone the entire repository using:
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+
+
 
 
 
